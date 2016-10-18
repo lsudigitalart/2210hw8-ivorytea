@@ -35,9 +35,12 @@ function draw()
 
 }
 
-function mouseReleased()
-{
-  background(242, 233, 247);
+function mouseReleased() {
+  dothat();
+}
+
+function dothat() {
+    background(242, 233, 247);
 
   h = random(0,3);
   b = random(0,3);
@@ -68,5 +71,5 @@ function mouseReleased()
   if(b > 2 && b < 3)
   {
     image(juneHead, 500, 80);
-  }
+  }  
 }
